@@ -1,7 +1,7 @@
 export default function SimdiNeYapmaliyiz() {
   return (
     <section>
-      <h2>Simdi Ne Yapmaliyiz?</h2>
+      <h2>Şimdi Ne Yapmalıyız?</h2>
       <div className="space-y-8">
         <p>
           CSS öğrenme yolculuğunuza <span>Vanilla CSS</span> ile başlamanız önemlidir. CSS&#39;in

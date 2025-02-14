@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function SimdiNeYapmaliyiz() {
   return (
     <section>
-      <h2>Simdi Ne Yapmaliyiz?</h2>
+      <h2>Şimdi Ne Yapmalıyız?</h2>
       <div className="space-y-8">
         <p>
           MVC mimarisi ile web geliştirme yapmak istiyorsanız, Microsoft&#39;un sunduğu{" "}

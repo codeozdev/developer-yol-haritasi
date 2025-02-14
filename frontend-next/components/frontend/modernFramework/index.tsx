@@ -15,7 +15,7 @@ interface FrameworkSection {
 
 const sections: FrameworkSection[] = [
   {
-    title: "MVC Mimarisi",
+    title: "MVC Mimarisi / .NET",
     color: "blue",
     description:
       "Model-View-Controller (MVC) mimarisi, Microsoft'un ASP.NET MVC gibi framework'lerde kullanılan geleneksel bir yaklaşımdır. Bu mimari, web uygulamalarını Model (veri), View (görünüm) ve Controller (kontrol) katmanlarına ayırarak daha organize bir yapı sunar.",
@@ -23,12 +23,12 @@ const sections: FrameworkSection[] = [
       "Daha yapılandırılmış ve kurumsal projeler için uygundur",
       "Büyük ölçekli uygulamalar için tercih edilir",
     ],
-    frameworks: ["ASP.NET MVC (Microsoft)", "Ember.js"],
+    frameworks: ["ASP.NET MVC (Microsoft)", "Blazor"],
     link: "/web-dev/frontend/mvc-tabanli",
-    linkText: "MVC Yaklaşımının Detayları",
+    linkText: "Detaylı Bilgi İçin Tıklayınız",
   },
   {
-    title: "Component Tabanlı",
+    title: "Component Tabanlı / JavaScript",
     color: "green",
     description:
       "Modern component tabanlı yaklaşım, React ve Vue.js gibi framework'lerin benimsediği daha esnek ve modüler bir yapı sunar.",
@@ -38,7 +38,7 @@ const sections: FrameworkSection[] = [
     ],
     frameworks: ["React (Facebook/Meta)", "Next.js", "Angular (Google)", "Vue.js", "Svelte"],
     link: "/web-dev/frontend/component-tabanli",
-    linkText: "Component Tabanlı Yaklaşımın Detayları",
+    linkText: "Detaylı Bilgi İçin Tıklayınız",
   },
 ];
 
@@ -53,15 +53,18 @@ export default function ModernFramework() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             className="h-full flex flex-col">
-            <h3 className={`text-xl font-semibold mb-4 text-${section.color}-700`}>
-              {section.title}
-            </h3>
+            <h4>{section.title}</h4>
             <div className="flex-grow">
               <p className="mb-4">{section.description}</p>
               <ul className="space-y-2 text-gray-600">
                 {section.features.map((feature) => (
                   <li key={feature} className="flex items-start">
-                    <span className={`text-${section.color}-500 mr-2`}>•</span>
+                    <span
+                      className={`${
+                        section.title === "Component Tabanlı" ? "text-green-500" : "text-blue-500"
+                      } mr-2`}>
+                      •
+                    </span>
                     {feature}
                   </li>
                 ))}
@@ -79,7 +82,7 @@ export default function ModernFramework() {
             </div>
             <Link
               href={section.link}
-              className={`mt-4 bg-${section.color}-700 text-white px-4 py-2 rounded-md w-full text-xs md:text-base text-center`}>
+              className={`mt-4 bg-gray-800 text-white px-4 py-2 rounded-md w-fit text-xs md:text-base text-center`}>
               {section.linkText}
             </Link>
           </motion.section>

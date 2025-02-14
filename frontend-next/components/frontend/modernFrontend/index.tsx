@@ -1,19 +1,36 @@
+import Image from "next/image";
+
 export default function ModernFrontend() {
   return (
     <section>
-      <h2>Modern Frontend Framework&#39;leri</h2>
-      <p>
-        Frontend geliştirme kariyerinizi planlarken iki temel yol bulunmaktadır: Kurumsal yazılım
-        dünyasında tercih edilen .NET MVC gibi geleneksel yaklaşımlar ve modern web geliştirmede
-        yaygın olan component tabanlı yaklaşım (React, Vue.js, Angular). Her iki yol da kendi içinde
-        değerli fırsatlar sunar ve tercih yaparken hedef şirketlerin teknoloji seçimlerini göz
-        önünde bulundurmanız önemlidir.
-      </p>
+      <h2>.NET veya JavaScript Yol Ayrımı</h2>
 
-      <p className="my-4 text-[10px] text-gray-500 italic">
-        Not: Her iki yaklaşımın da kendi avantajları vardır ve proje gereksinimlerine göre tercih
-        edilmelidir. (%70 - %80 projelerde component tabanlı yaklaşım tercih edilmektedir.)
-      </p>
+      <div className="relative md:h-[260px] w-full my-6">
+        <Image
+          src="/frontend/vs.png"
+          alt="Frontend Geliştirme Yolları"
+          fill
+          className="object-cover object-center rounded-lg"
+          priority
+        />
+      </div>
+
+      <div>
+        <p>
+          Frontend geliştirme kariyerinizde iki temel yol bulunmaktadır: <span>C# ve .NET</span>{" "}
+          ekosistemi ile kurumsal yazılım dünyasında tercih edilen geleneksel yaklaşım veya{" "}
+          <span>JavaScript</span> ekosistemi ile modern web geliştirmede yaygın olan{" "}
+          <span>React</span>, <span>Angular</span> gibi component tabanlı yaklaşım. Her iki yol da
+          kendi içinde değerli fırsatlar sunar. Tercih yaparken hedef şirketlerin teknoloji
+          seçimlerini göz önünde bulundurmanız önemlidir.
+        </p>
+
+        <p className="mt-4 text-sm text-gray-600">
+          Not: Günümüzde projelerin %70-80&#39;inde JavaScript ekosistemi ve component tabanlı
+          yaklaşım tercih edilmektedir. Ancak kurumsal projelerde .NET ekosistemi hala güçlü bir
+          seçenek olarak öne çıkmaktadır.
+        </p>
+      </div>
     </section>
   );
 }

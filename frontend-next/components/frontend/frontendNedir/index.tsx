@@ -9,7 +9,7 @@ export default function FrontEndNedir() {
         geliştirmeyi içerir. Frontend geliştiriciler, kullanıcı deneyimini (UX) ve kullanıcı
         arayüzünü (UI) optimize ederek, web sitelerinin hem görsel açıdan çekici hem de işlevsel
         olmasını sağlarlar. Modern frontend geliştirmede React, Vue.js gibi JavaScript
-        framework'leri de yaygın olarak kullanılmaktadır.
+        framework&#39;leri de yaygın olarak kullanılmaktadır.
       </p>
     </section>
   );

@@ -10,7 +10,7 @@ export default function Tanim() {
           kendi mantığını, görünümünü ve davranışını içerir, bu da kod tekrarını azaltır ve
           uygulamanın ölçeklenebilirliğini artırır. Ayrıca, componentler arası veri akışının
           yönetimi daha kolay hale gelir ve test edilebilirlik artar. React gibi modern
-          framework'ler, component tabanlı geliştirmeyi destekleyerek daha sürdürülebilir ve modüler
+          framework&#39;ler, component tabanlı geliştirmeyi destekleyerek daha sürdürülebilir ve modüler
           uygulamalar oluşturmamıza olanak sağlar.
         </p>
       </div>

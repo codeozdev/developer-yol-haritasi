@@ -15,7 +15,7 @@ export default function Hero() {
         gösteren yıllık bir araştırmadır. Bu araştırma, dünya genelindeki binlerce geliştiricinin
         katılımıyla gerçekleştirilir ve CSS ekosistemindeki en güncel eğilimleri ortaya koyar.{" "}
         <br />
-        <b>Sonuçlara göre en çok kullanılan programlama framework'leri:</b>
+        <b>Sonuçlara göre en çok kullanılan programlama framework&#39;leri:</b>
       </p>
       <Image
         src="/css/1.png"

@@ -1,7 +1,7 @@
 export default function ModernFrontend() {
   return (
     <section>
-      <h2>Modern Frontend Framework'leri</h2>
+      <h2>Modern Frontend Framework&#39;leri</h2>
       <p>
         Frontend geliştirme kariyerinizi planlarken iki temel yol bulunmaktadır: Kurumsal yazılım
         dünyasında tercih edilen .NET MVC gibi geleneksel yaklaşımlar ve modern web geliştirmede

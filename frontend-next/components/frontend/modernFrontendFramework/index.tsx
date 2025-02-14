@@ -8,7 +8,7 @@ export default function ModernFramework() {
         <h3 className="text-xl font-semibold mb-4 text-blue-700">MVC Mimarisi</h3>
         <div className="flex-grow">
           <p className="mb-4">
-            Model-View-Controller (MVC) mimarisi, Microsoft'un ASP.NET MVC gibi framework'lerde
+            Model-View-Controller (MVC) mimarisi, Microsoft&#39;un ASP.NET MVC gibi framework&#39;lerde
             kullanılan geleneksel bir yaklaşımdır. Bu mimari, web uygulamalarını Model (veri), View
             (görünüm) ve Controller (kontrol) katmanlarına ayırarak daha organize bir yapı sunar.{" "}
             <br />
@@ -25,7 +25,7 @@ export default function ModernFramework() {
             </li>
           </ul>
           <div className="mt-4 space-y-2">
-            <p className="font-medium text-gray-800">Popüler MVC Framework'leri:</p>
+            <p className="font-medium text-gray-800">Popüler MVC Framework&#39;leri:</p>
             <ul className="space-y-1 text-gray-600">
               <li>• ASP.NET MVC (Microsoft)</li>
               <li>• Ember.js</li>
@@ -44,7 +44,7 @@ export default function ModernFramework() {
         <h3 className="text-xl font-semibold mb-4 text-green-700">Component Tabanlı</h3>
         <div className="flex-grow">
           <p className="text-gray-700 leading-relaxed mb-4">
-            Modern component tabanlı yaklaşım, React ve Vue.js gibi framework'lerin benimsediği daha
+            Modern component tabanlı yaklaşım, React ve Vue.js gibi framework&#39;lerin benimsediği daha
             esnek ve modüler bir yapı sunar. Bu yaklaşımda:
           </p>
           <ul className="space-y-2 text-gray-600">
@@ -58,7 +58,7 @@ export default function ModernFramework() {
             </li>
           </ul>
           <div className="mt-4 space-y-2">
-            <p className="font-medium text-gray-800">Popüler Component Framework'leri:</p>
+            <p className="font-medium text-gray-800">Popüler Component Framework&#39;leri:</p>
             <ul className="space-y-1 text-gray-600">
               <li>• React (Facebook/Meta)</li>
               <li>• Next.js</li>

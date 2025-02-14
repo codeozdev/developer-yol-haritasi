@@ -8,7 +8,7 @@
   }
 
   h2 {
-    @apply text-3xl font-semibold tracking-tight text-gray-800 my-4;
+    @apply text-lg md:text-3xl font-semibold tracking-tight text-gray-800 my-4 text-center md:text-left;
   }
 
   h3 {
@@ -45,6 +45,14 @@
   /* Liste öğeleri arası boşluk */
   li + li {
     @apply mt-1;
+  }
+
+  section {
+    @apply p-6 bg-white rounded-lg shadow-sm;
+  }
+
+  span {
+    @apply text-black font-bold;
   }
 }
 

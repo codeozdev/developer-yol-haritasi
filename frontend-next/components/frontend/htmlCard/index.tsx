@@ -15,7 +15,7 @@ export default function HtmlCard() {
           />
         </div>
 
-        <div className="p-6">
+        <section>
           <h4>HTML</h4>
           <p>
             İşaretleme dili olan Html, web sayfalarının hazırlanmasında kullanılan sistemdir. Bir
@@ -23,7 +23,7 @@ export default function HtmlCard() {
             oluşturulmasında kullanılır. Chrome, Firefox ve İnternet Explorer gibi tarayıcılar html
             kodlarını işleyerek bu kodları web sayfasına dönüştürür.
           </p>
-        </div>
+        </section>
       </div>
 
       {/* CSS Card */}
@@ -38,7 +38,7 @@ export default function HtmlCard() {
           />
         </div>
 
-        <div className="p-6">
+        <section>
           <h4>CSS</h4>
           <p>
             CSS (Cascading Style Sheets), web sayfalarının görünümünü ve düzenini kontrol eden stil
@@ -46,7 +46,7 @@ export default function HtmlCard() {
             diğer görsel özelliklerini belirlemek için kullanılır. Responsive tasarım ile farklı
             ekran boyutlarına uyum sağlayan modern web siteleri oluşturmamızı sağlar.
           </p>
-        </div>
+        </section>
       </div>
 
       {/* JavaScript Card */}
@@ -61,7 +61,7 @@ export default function HtmlCard() {
           />
         </div>
 
-        <div className="p-6">
+        <section>
           <h4>JavaScript</h4>
           <p>
             JavaScript, web sayfalarını interaktif hale getiren güçlü bir programlama dilidir.
@@ -70,7 +70,7 @@ export default function HtmlCard() {
             Modern web uygulamalarının vazgeçilmez bir parçası olan JavaScript, hem frontend hem de
             backend geliştirmede kullanılabilir.
           </p>
-        </div>
+        </section>
       </div>
     </div>
   );

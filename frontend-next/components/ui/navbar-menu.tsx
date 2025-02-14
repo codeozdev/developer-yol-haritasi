@@ -172,13 +172,15 @@ export function NavbarMenu({ items }: NavbarMenuProps) {
           className="relative"
           onMouseEnter={() => handleMouseEnter(label)}
           onMouseLeave={handleMouseLeave}>
-          <Link href={item.path} className="text-gray-700 hover:text-gray-900 font-medium">
+          <Link
+            href={item.path}
+            className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white font-medium">
             {label}
           </Link>
 
           {hoveredItem === label && item.subItems && (
             <div
-              className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50"
+              className="absolute left-0 mt-2 w-48 bg-white dark:bg-[#1c2128] rounded-md shadow-lg py-1 z-50 border border-gray-200 dark:border-gray-700"
               onMouseEnter={() => handleMouseEnter(label)}
               onMouseLeave={handleMouseLeave}>
               {Object.entries(item.subItems).map(([subLabel, subItem]) => (
@@ -189,7 +191,7 @@ export function NavbarMenu({ items }: NavbarMenuProps) {
                   onMouseLeave={() => setHoveredSubItem(null)}>
                   <Link
                     href={typeof subItem === "string" ? subItem : subItem.path}
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-[#2d333b] dark:hover:text-white">
                     {subLabel}
                   </Link>
 
@@ -197,7 +199,7 @@ export function NavbarMenu({ items }: NavbarMenuProps) {
                     typeof subItem !== "string" &&
                     subItem.subItems && (
                       <div
-                        className="absolute left-full top-0 w-48 bg-white rounded-md shadow-lg py-1"
+                        className="absolute left-full top-0 w-48 bg-white dark:bg-[#1c2128] rounded-md shadow-lg py-1 border border-gray-200 dark:border-gray-700"
                         onMouseEnter={() => {
                           handleMouseEnter(label);
                           setHoveredSubItem(subLabel);
@@ -207,7 +209,7 @@ export function NavbarMenu({ items }: NavbarMenuProps) {
                           <Link
                             key={thirdLabel}
                             href={path}
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-[#2d333b] dark:hover:text-white">
                             {thirdLabel}
                           </Link>
                         ))}

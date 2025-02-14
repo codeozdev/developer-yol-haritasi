@@ -9,21 +9,21 @@ export default function Tanim() {
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="md:bg-white md:shadow-lg md:p-6 rounded-lg">
-          <h4 className="text-blue-600">Model</h4>
+          <h4 className="text-blue-600 dark:text-blue-400">Model</h4>
           <p>
             Veri yapısını ve iş mantığını yönetir. Veritabanı işlemleri, veri doğrulama ve iş
             kuralları bu katmanda yer alır. Uygulama verilerinin tek kaynak noktası olarak çalışır.
           </p>
         </div>
         <div className="md:bg-white md:shadow-lg md:p-6 rounded-lg">
-          <h4 className="text-green-600">View</h4>
+          <h4 className="text-green-600 dark:text-green-400">View</h4>
           <p>
             Kullanıcı arayüzünü temsil eder. Model&#39;den gelen verileri görsel olarak sunar ve
             kullanıcı etkileşimlerini Controller&#39;a iletir. Sadece görüntüleme mantığı içerir.
           </p>
         </div>
         <div className="md:bg-white md:shadow-lg md:p-6 rounded-lg">
-          <h4 className="text-purple-600">Controller</h4>
+          <h4 className="text-purple-600 dark:text-purple-400">Controller</h4>
           <p>
             Model ve View arasındaki iletişimi yönetir. Kullanıcı isteklerini işler, gerekli iş
             mantığını çağırır ve sonuçları View&#39;a iletir. Uygulama akışının kontrolünü sağlar.

@@ -66,7 +66,7 @@ export default function HtmlCard() {
           <p>
             JavaScript, web sayfalarını interaktif hale getiren güçlü bir programlama dilidir.
             Kullanıcı etkileşimlerine yanıt verme, form doğrulama, dinamik içerik güncelleme,
-            animasyonlar oluşturma ve API'lerle veri alışverişi yapma gibi işlevleri gerçekleştirir.
+            animasyonlar oluşturma ve API&#39;lerle veri alışverişi yapma gibi işlevleri gerçekleştirir.
             Modern web uygulamalarının vazgeçilmez bir parçası olan JavaScript, hem frontend hem de
             backend geliştirmede kullanılabilir.
           </p>

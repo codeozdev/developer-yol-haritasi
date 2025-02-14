@@ -9,6 +9,7 @@ export interface Framework {
   link: string;
   githubStars?: string;
   githubLink?: string;
+  sites?: string[];
 }
 
 export const frameworks: Framework[] = [
@@ -24,6 +25,7 @@ export const frameworks: Framework[] = [
     link: "https://react.dev",
     githubStars: "232k",
     githubLink: "https://github.com/facebook/react",
+    sites: ["Facebook", "Instagram", "WhatsApp", "Airbnb", "Netflix"],
   },
   {
     id: 2,
@@ -37,6 +39,7 @@ export const frameworks: Framework[] = [
     link: "https://nextjs.org/",
     githubStars: "129k",
     githubLink: "https://github.com/vercel/next.js",
+    sites: ["TikTok", "Twitch", "Nike", "Notion", "Showtime"],
   },
   {
     id: 3,
@@ -50,6 +53,7 @@ export const frameworks: Framework[] = [
     link: "https://angular.io/",
     githubStars: "96k",
     githubLink: "https://github.com/angular/angular",
+    sites: ["Google", "Microsoft Office", "Samsung", "Deutsche Bank", "BMW"],
   },
   {
     id: 4,
@@ -63,6 +67,7 @@ export const frameworks: Framework[] = [
     link: "https://vuejs.org/",
     githubStars: "48.8k",
     githubLink: "https://github.com/vuejs/core",
+    sites: ["GitLab", "Xiaomi", "BMW", "Adobe", "Alibaba"],
   },
   {
     id: 5,
@@ -76,5 +81,6 @@ export const frameworks: Framework[] = [
     link: "https://svelte.dev/",
     githubStars: "81.3k",
     githubLink: "https://github.com/sveltejs/svelte",
+    sites: ["The New York Times", "Apple Music", "Spotify", "Square"],
   },
 ];

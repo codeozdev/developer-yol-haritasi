@@ -68,7 +68,7 @@ export const frameworks: Framework[] = [
     id: 5,
     title: "Svelte",
     image: {
-      src: "/component-tabanli/svelte2.webp",
+      src: "/component-tabanli/svelte.webp",
       alt: "svelte",
     },
     description:

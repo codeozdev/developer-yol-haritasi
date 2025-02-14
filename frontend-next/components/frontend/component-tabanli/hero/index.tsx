@@ -13,12 +13,12 @@ export default function Hero() {
         </a>
         , dünya genelindeki yazılımcıları ve programcıları bir araya getiren bir soru-cevap
         platformudur. Stack Overflow yazılımcılar için bir bilgi deposu ve kütüphanesi olarak
-        görülür. Stack Exchange Network&#39;ün amiral gemisi olan Stackoverflow, her ay 100 milyondan
-        fazla ziyaretçiyi ağırlar. <br />
+        görülür. Stack Exchange Network&#39;ün amiral gemisi olan Stackoverflow, her ay 100
+        milyondan fazla ziyaretçiyi ağırlar. <br />
         <b>Sonuçlara göre en çok kullanılan programlama framework&#39;leri:</b>
       </p>
       <Image
-        src="/component-tabanli/1.png"
+        src="/component-tabanli/hero.png"
         alt="Component Tabanlı Görsel"
         width={0}
         height={0}

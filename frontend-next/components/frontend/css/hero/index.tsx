@@ -18,7 +18,7 @@ export default function Hero() {
         <b>Sonuçlara göre en çok kullanılan programlama framework&#39;leri:</b>
       </p>
       <Image
-        src="/css/1.png"
+        src="/css/hero.png"
         alt="Component Tabanlı Görsel"
         width={0}
         height={0}

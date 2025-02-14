@@ -24,7 +24,7 @@ const sections: FrameworkSection[] = [
       "Büyük ölçekli uygulamalar için tercih edilir",
     ],
     frameworks: ["ASP.NET MVC (Microsoft)", "Ember.js"],
-    link: "/web-developer/frontend/mvc-tabanli",
+    link: "/web-dev/frontend/mvc-tabanli",
     linkText: "MVC Yaklaşımının Detayları",
   },
   {
@@ -37,7 +37,7 @@ const sections: FrameworkSection[] = [
       "Yeniden kullanılabilir bileşenler oluşturulur",
     ],
     frameworks: ["React (Facebook/Meta)", "Next.js", "Angular (Google)", "Vue.js", "Svelte"],
-    link: "/web-developer/frontend/component-tabanli",
+    link: "/web-dev/frontend/component-tabanli",
     linkText: "Component Tabanlı Yaklaşımın Detayları",
   },
 ];
@@ -67,7 +67,9 @@ export default function ModernFramework() {
                 ))}
               </ul>
               <div className="mt-4 space-y-2">
-                <p className="font-medium text-gray-800">Popüler {section.title} Framework&#39;leri:</p>
+                <p className="font-medium text-gray-800">
+                  Popüler {section.title} Framework&#39;leri:
+                </p>
                 <ul className="space-y-1 text-gray-600">
                   {section.frameworks.map((framework) => (
                     <li key={framework}>• {framework}</li>

@@ -35,7 +35,9 @@ export function MobileMenu({ items }: MobileMenuProps) {
 
   return (
     <div className="md:hidden">
-      <button onClick={() => setIsOpen(!isOpen)} className="p-2 text-gray-600 hover:text-gray-900">
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="p-2 text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
         {isOpen ? <HiX size={24} /> : <HiMenu size={24} />}
       </button>
 
@@ -45,19 +47,23 @@ export function MobileMenu({ items }: MobileMenuProps) {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="absolute top-16 left-0 right-0 bg-white shadow-lg">
+            className="absolute top-16 left-0 right-0 bg-white dark:bg-[#1c2128] shadow-lg border-t border-gray-200 dark:border-gray-700">
             <div className="px-4 py-2">
               {Object.entries(items).map(([label, item]) => (
-                <div key={label} className="border-b border-gray-200 last:border-0">
+                <div
+                  key={label}
+                  className="border-b border-gray-200 dark:border-gray-700 last:border-0">
                   <div className="flex items-center justify-between py-3">
                     <Link
                       href={item.path}
                       onClick={() => !item.subItems && setIsOpen(false)}
-                      className="text-gray-700 hover:text-gray-900">
+                      className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
                       {label}
                     </Link>
                     {item.subItems && (
-                      <button onClick={() => toggleSubMenu(label)} className="p-2 text-gray-600">
+                      <button
+                        onClick={() => toggleSubMenu(label)}
+                        className="p-2 text-gray-600 dark:text-gray-400">
                         <motion.span
                           animate={{ rotate: openSubMenus.includes(label) ? 180 : 0 }}
                           className="block">
@@ -78,7 +84,7 @@ export function MobileMenu({ items }: MobileMenuProps) {
                           <Link
                             href={typeof subItem === "string" ? subItem : subItem.path}
                             onClick={() => setIsOpen(false)}
-                            className="block py-2 text-gray-600 hover:text-gray-900">
+                            className="block py-2 text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
                             {subLabel}
                           </Link>
                           {typeof subItem !== "string" && subItem.subItems && (
@@ -88,7 +94,7 @@ export function MobileMenu({ items }: MobileMenuProps) {
                                   key={thirdLabel}
                                   href={path}
                                   onClick={() => setIsOpen(false)}
-                                  className="block py-2 text-gray-600 hover:text-gray-900">
+                                  className="block py-2 text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
                                   {thirdLabel}
                                 </Link>
                               ))}

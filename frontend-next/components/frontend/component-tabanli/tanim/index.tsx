@@ -11,7 +11,7 @@ export default function Tanim() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="md:bg-white md:shadow-lg md:p-6 rounded-lg">
-          <h4 className="text-blue-600">Modülerlik</h4>
+          <h4 className="text-blue-600 dark:text-blue-400">Modülerlik</h4>
           <p>
             Her component kendi mantığını, görünümünü ve stilini içerir. Bu yapı sayesinde
             uygulamanızı küçük, bağımsız ve yönetilebilir parçalara bölebilirsiniz. Componentler
@@ -20,7 +20,7 @@ export default function Tanim() {
         </div>
 
         <div className="md:bg-white md:shadow-lg md:p-6 rounded-lg">
-          <h4 className="text-green-600">Yeniden Kullanılabilirlik</h4>
+          <h4 className="text-green-600 dark:text-green-400">Yeniden Kullanılabilirlik</h4>
           <p>
             Bir kez oluşturulan component, projenin farklı yerlerinde tekrar tekrar kullanılabilir.
             Bu özellik, geliştirme sürecini hızlandırır, kod tekrarını azaltır ve tutarlı bir
@@ -29,7 +29,7 @@ export default function Tanim() {
         </div>
 
         <div className="md:bg-white md:shadow-lg md:p-6 rounded-lg">
-          <h4 className="text-purple-600">Verimli Geliştirme</h4>
+          <h4 className="text-purple-600 dark:text-purple-400">Verimli Geliştirme</h4>
           <p>
             Modern araçlar ve geliştirme ortamları ile component tabanlı geliştirme çok daha
             verimlidir. Hot-reload, state yönetimi ve debugging özellikleri sayesinde hızlı ve

@@ -34,7 +34,9 @@ export default function CardsComponent() {
                     target="_blank"
                     className="flex items-center gap-1 text-yellow-500 hover:text-yellow-600">
                     <AiFillStar />
-                    <span className="text-sm">{framework.githubStars}</span>
+                    <div className="text-sm text-black dark:text-gray-300 font-bold">
+                      {framework.githubStars}
+                    </div>
                   </Link>
                 ) : (
                   <div className="flex items-center gap-1 text-gray-400">

@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import Link from "next/link";
 
 interface FrameworkSection {
@@ -47,12 +46,7 @@ export default function ModernFramework() {
     <div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {sections.map((section) => (
-          <motion.section
-            key={section.title}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="h-full flex flex-col">
+          <section key={section.title} className="h-full flex flex-col">
             <h4>{section.title}</h4>
             <div className="flex-grow">
               <p className="mb-4">{section.description}</p>
@@ -80,12 +74,12 @@ export default function ModernFramework() {
                 </ul>
               </div>
             </div>
-            <Link
-              href={section.link}
-              className={`mt-4 bg-gray-800 text-white px-4 py-2 rounded-md w-fit text-xs md:text-base text-center`}>
-              {section.linkText}
+            <Link href={section.link} className={`mt-4`}>
+              <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 text-xs">
+                {section.linkText}
+              </button>
             </Link>
-          </motion.section>
+          </section>
         ))}
       </div>
     </div>

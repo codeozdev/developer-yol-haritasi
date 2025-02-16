@@ -60,7 +60,8 @@ export default function YazilimTarihi() {
           <div>
             <h3>İnternetin Doğuşu</h3>
             <p>
-              ABD Savunma Bakanlığı&#39;nın (DARPA) California'daki projesinden doğan ve 1969&#39;da
+              ABD Savunma Bakanlığı&#39;nın (DARPA) California&#39;daki projesinden doğan ve
+              1969&#39;da
               <span> ARPANET</span> ile başlayan internet yolculuğu, bugün milyarlarca insanı
               birbirine bağlayan devasa bir ağa dönüştü. İlk başta sadece akademik kurumları
               birbirine bağlayan bu ağ, zamanla tüm dünyayı saran bir iletişim ağına evrildi.

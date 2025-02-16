@@ -111,7 +111,7 @@ export const HoveredLink = ({ children, href, ...rest }: HoveredLinkProps) => {
     <Link
       href={href || "#"}
       {...rest}
-      className="text-neutral-700 dark:text-neutral-200 hover:text-black ">
+      className="text-neutral-700 dark:text-neutral-200 hover:text-black">
       {children}
     </Link>
   );

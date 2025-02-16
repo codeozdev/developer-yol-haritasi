@@ -44,6 +44,11 @@ export default function Header() {
               className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white font-medium">
               Ana Sayfa
             </Link>
+            <Link
+              href="/yazilim-tarihi"
+              className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white font-medium text-[13px]">
+              Yazlım Tarihi
+            </Link>
 
             <div className="hidden md:flex items-center gap-4">
               <NavbarMenu items={menuItems} />

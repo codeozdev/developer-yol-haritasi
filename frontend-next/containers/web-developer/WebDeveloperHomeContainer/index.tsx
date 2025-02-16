@@ -1,3 +1,3 @@
 export default function WebDeveloperHomeContainer() {
-  return <div>WebDeveloperHomeContainer</div>;
+  return <div>WebDevHomeContainer</div>;
 }

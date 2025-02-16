@@ -10,7 +10,7 @@ export default function YazilimTarihi() {
         <section className="grid md:grid-cols-2 gap-8 items-center">
           <div className="relative h-[300px]">
             <Image
-              src="/home/yazilimTarihi/eniac.jpeg"
+              src="/yazilimTarihi/eniac.jpeg"
               alt="ENIAC - İlk Elektronik Bilgisayar"
               fill
               className="object-cover rounded-lg"
@@ -39,7 +39,7 @@ export default function YazilimTarihi() {
           </div>
           <div className="relative h-[300px]">
             <Image
-              src="/home/yazilimTarihi/assembly.png"
+              src="/yazilimTarihi/assembly.png"
               alt="Modern Yazılım Geliştirme"
               fill
               className="object-cover rounded-lg"
@@ -51,7 +51,7 @@ export default function YazilimTarihi() {
         <section className="grid md:grid-cols-2 gap-8 items-center">
           <div className="relative h-[300px]">
             <Image
-              src="/home/yazilimTarihi/arpanet.png"
+              src="/yazilimTarihi/arpanet.png"
               alt="ARPANET - İnternetin Temeli"
               fill
               className="object-cover rounded-lg"
@@ -72,7 +72,7 @@ export default function YazilimTarihi() {
         <section className="grid md:grid-cols-2 gap-8 items-center">
           <div className="md:order-2 relative h-[300px]">
             <Image
-              src="/home/yazilimTarihi/apple.webp"
+              src="/yazilimTarihi/apple.webp"
               alt="Apple I - İlk Kişisel Bilgisayarlardan"
               fill
               className="object-cover rounded-lg"

@@ -24,14 +24,14 @@ export default function Header() {
         },
       },
     },
-    Hobby: {
-      path: "/hobby",
-      subItems: {
-        Yazılım: "/hobby/yazilim",
-        Oyun: "/hobby/oyun",
-        Spor: "/hobby/spor",
-      },
-    },
+    // Hobby: {
+    //   path: "/hobby",
+    //   subItems: {
+    //     Yazılım: "/hobby/yazilim",
+    //     Oyun: "/hobby/oyun",
+    //     Spor: "/hobby/spor",
+    //   },
+    // },
   };
 
   return (

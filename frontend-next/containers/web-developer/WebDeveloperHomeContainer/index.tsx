@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import { webDevolutionData } from "@/data/web-dev-data";
 import Image from "next/image";
 import Link from "next/link";
@@ -24,11 +25,13 @@ export default function WebDeveloperHomeContainer() {
                   <h3>{section.title}</h3>
                   <p dangerouslySetInnerHTML={{ __html: section.content }} />
                   {section.hasLink && (
-                    <div className="mt-4">
+                    <div className="mt-8">
                       <Link
                         href="/web-dev/frontend"
                         className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 font-medium">
-                        Modern Frontend'i Keşfet →
+                        <Button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 text-xs">
+                          Modern Developer'i Keşfet →
+                        </Button>
                       </Link>
                     </div>
                   )}

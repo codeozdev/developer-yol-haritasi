@@ -1,3 +1,5 @@
+import HomePageContainer from "@/containers/home";
+
 export default function Home() {
-  return <div>HOME PAGE</div>;
+  return <HomePageContainer />;
 }

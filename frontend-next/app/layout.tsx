@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           disableTransitionOnChange>
           <Header />
           <main className="min-h-screen bg-gray-50 dark:bg-[#0d1117]">
-            <div className="container px-4 py-8 max-w-7xl">{children}</div>
+            <div className="container px-4 py-2 md:py-8 max-w-7xl">{children}</div>
           </main>
         </ThemeProvider>
       </body>

@@ -47,7 +47,7 @@ export function MobileMenu({ items }: MobileMenuProps) {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="absolute top-16 left-0 right-0 bg-white dark:bg-[#1c2128] shadow-lg border-t border-gray-200 dark:border-gray-700">
+            className="absolute top-16 left-0 right-0 bg-white dark:bg-[#1c2128] shadow-lg border-t border-gray-200 dark:border-gray-700 z-50">
             <div className="px-4 py-2">
               {Object.entries(items).map(([label, item]) => (
                 <div

@@ -1,5 +1,11 @@
-import YazilimTarihiContainer from "@/containers/yazilimTarihi";
+import YazilimDunyasi from "@/components/yazilimTarihi";
+import { ProgrammingFather } from "@/components/yazilimTarihi/programmingFather";
 
 export default function YazilimTarihiPage() {
-  return <YazilimTarihiContainer />;
+  return (
+    <>
+      <YazilimDunyasi />
+      <ProgrammingFather />
+    </>
+  );
 }

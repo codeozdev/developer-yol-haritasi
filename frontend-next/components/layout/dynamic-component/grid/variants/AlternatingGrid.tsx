@@ -1,4 +1,5 @@
-import ImageComponent from "@/components/layout/dynamic-component/Image";
+import Image from "next/image";
+import { variantStyles } from "./styles";
 
 interface GridItemProps {
   id: number;
@@ -21,17 +22,20 @@ const renderContent = (content: string) => {
   });
 };
 
-export default function GridItem({ title, content, image, imageAlt, index }: GridItemProps) {
+export default function AlternatingGrid({ title, content, image, imageAlt, index }: GridItemProps) {
   const isReversed = index % 2 === 1;
+  const styles = variantStyles.alternating;
 
   return (
-    <div className="grid lg:grid-cols-2 gap-2 md:gap-4 lg:gap-6 items-center p-3 md:p-6 bg-white rounded-lg shadow-2xl dark:shadow-md dark:shadow-green-500">
+    <div className={styles.container}>
       <div className={`w-full ${isReversed ? "lg:order-1" : "lg:order-none"}`}>
-        <ImageComponent src={image} alt={imageAlt} />
+        <div className={styles.imageWrapper}>
+          <Image src={image} alt={imageAlt} fill className={styles.image} />
+        </div>
       </div>
-      <div className={`w-full ${isReversed ? "lg:order-0" : "lg:order-none"}`}>
-        <h2>{title}</h2>
-        <p>{renderContent(content)}</p>
+      <div className={`${styles.content} ${isReversed ? "lg:order-0" : "lg:order-none"}`}>
+        <h3>{title}</h3>
+        <p className={styles.description}>{renderContent(content)}</p>
       </div>
     </div>
   );

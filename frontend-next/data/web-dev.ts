@@ -1,4 +1,4 @@
-interface WebDevSection {
+interface WebDevDataProps {
   id: number;
   title: string;
   content: string;
@@ -6,7 +6,7 @@ interface WebDevSection {
   imageAlt: string;
 }
 
-export const webDevolutionData: WebDevSection[] = [
+export const webDevData: WebDevDataProps[] = [
   {
     id: 1,
     title: "İlk Web Sitesi ve HTML'in Doğuşu",

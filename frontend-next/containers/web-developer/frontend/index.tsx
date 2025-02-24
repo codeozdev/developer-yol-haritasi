@@ -1,5 +1,5 @@
+import HtmlCard from "@/components/frontend/frontend/frontendCard";
 import FrontEndNedir from "@/components/frontend/frontend/frontendNedir";
-import HtmlCard from "@/components/frontend/frontend/htmlCard";
 import ModernFramework from "@/components/frontend/frontend/modernFramework";
 import ModernFrontend from "@/components/frontend/frontend/modernFrontend";
 

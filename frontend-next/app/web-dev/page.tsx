@@ -1,9 +1,9 @@
-import WebDeveloperHomeContainer from "@/containers/web-developer/WebDeveloperHomeContainer";
+import WebDev from "@/components/web-dev";
 
 export default function WebDeveloperPage() {
   return (
-    <div>
-      <WebDeveloperHomeContainer />
-    </div>
+    <>
+      <WebDev />
+    </>
   );
 }

@@ -18,7 +18,6 @@ export default function MediaCard({
   imageAlt,
   description,
   note,
-  className = "",
   reverse = true,
   imageFull = false,
 }: MediaCardProps) {

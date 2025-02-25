@@ -7,6 +7,7 @@ export default function YolAyrimi() {
       imageSrc="/frontend/vs.png"
       imageAlt="Frontend Geliştirme Yolları"
       note="Not: Günümüzde projelerin %70-80'inde JavaScript ekosistemi ve component tabanlı yaklaşım tercih edilmektedir. Ancak kurumsal projelerde .NET ekosistemi hala güçlü bir seçenek olarak öne çıkmaktadır."
+      reverse={false}
       description={
         <>
           Frontend geliştirme kariyerinizde iki temel yol bulunmaktadır: <span>C# ve .NET</span>{" "}

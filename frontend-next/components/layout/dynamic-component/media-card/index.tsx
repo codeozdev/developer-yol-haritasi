@@ -58,7 +58,7 @@ export default function MediaCard({
         </>
       ) : (
         <>
-          <div className="order-1">
+          <div className="order-2">
             {description}
             {note && <p className="mt-4 text-sm text-gray-600">{note}</p>}
           </div>
@@ -76,7 +76,7 @@ export default function MediaCard({
               />
             </div>
           ) : (
-            <div className="relative h-[140px] md:h-[260px] w-full my-6 overflow-hidden order-2">
+            <div className="relative h-[140px] md:h-[260px] w-full my-6 overflow-hidden order-1">
               <Image
                 src={imageSrc}
                 alt={imageAlt}

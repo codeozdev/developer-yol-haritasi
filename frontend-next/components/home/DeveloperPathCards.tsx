@@ -1,7 +1,7 @@
 import { LayoutGrid } from "@/components/ui/layout-grid";
 import Link from "next/link";
 
-export default function CardsComponent() {
+export default function DeveloperPathCards() {
   const cards = [
     {
       id: 1,

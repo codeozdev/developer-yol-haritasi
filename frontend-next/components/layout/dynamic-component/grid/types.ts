@@ -1,5 +1,6 @@
 export type GridVariant =
-  | "two-column"
+  | "one-column"
+  | "two-column-md"
   | "three-column"
   | "featured"
   | "masonry"

@@ -1,6 +1,6 @@
 const baseStyles = {
   container:
-    "bg-white rounded-lg lg:rounded-lg shadow-lg w-full overflow-hidden shadow-2xl dark:shadow-md dark:shadow-green-500",
+    "bg-white rounded-lg lg:rounded-lg shadow-lg w-full overflow-hidden lg:shadow-2xl dark:shadow-md dark:shadow-green-500",
   imageWrapper: "h-[300px] relative w-full",
   image: "object-cover w-full hover:scale-105 transition-transform duration-300",
   content: "p-3 md:p-6",

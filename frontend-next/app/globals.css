@@ -12,15 +12,15 @@
   }
 
   h2 {
-    @apply text-lg md:text-2xl font-semibold tracking-tight text-gray-800 dark:text-gray-300 my-4 text-center md:text-left;
+    @apply text-lg md:text-3xl font-semibold tracking-tight text-gray-800 dark:text-gray-300 my-4 md:my-8 text-center md:text-left;
   }
 
   h3 {
-    @apply text-xl md:text-xl font-bold text-gray-800 dark:text-gray-300 my-2 text-center md:text-left;
+    @apply text-xl md:text-xl font-bold text-gray-800 dark:text-gray-300 my-4 md:my-10 text-center md:text-left;
   }
 
   p {
-    @apply text-gray-700 dark:text-gray-300 leading-relaxed text-[13px] md:text-[15px];
+    @apply text-gray-700 dark:text-gray-300 leading-relaxed text-[13px] md:text-[15px] text-center md:text-left;
   }
 
   li {

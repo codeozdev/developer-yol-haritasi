@@ -1,4 +1,4 @@
-import Header from "@/components/layout/header";
+import Header from "@/components/layout/Header";
 import { ThemeProvider } from "@/components/theme-provider";
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
@@ -26,7 +26,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           disableTransitionOnChange>
           <Header />
           <main className="min-h-screen bg-gray-50 dark:bg-[#0d1117]">
-            <div className="container px-4 py-2 md:py-8 max-w-7xl">{children}</div>
+            <div className="container px-4 py-8 max-w-7xl space-y-6 md:space-y-12 lg:space-y-10 xl:space-y-16">
+              {children}
+            </div>
           </main>
         </ThemeProvider>
       </body>

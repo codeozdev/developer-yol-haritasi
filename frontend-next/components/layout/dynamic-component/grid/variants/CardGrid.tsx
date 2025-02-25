@@ -12,7 +12,7 @@ export function CardGrid({ items, className = "" }: CardGridProps) {
   const styles = variantStyles.card;
 
   return (
-    <Grid variant="card" gap="base" className={className}>
+    <Grid variant="card" className={className}>
       {items.map((card) => (
         <div key={card.id} className={`${styles.container}`}>
           <div className={`${styles.imageWrapper}`}>

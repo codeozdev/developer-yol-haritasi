@@ -25,9 +25,9 @@ const frontendTechSlugs = [
 
 export default function FrontendNedir() {
   return (
-    <section>
+    <div className="bg-white rounded-lg lg:rounded-lg shadow-lg w-full overflow-hidden lg:shadow-2xl dark:shadow-md dark:shadow-green-500 p-3 md:p-6">
       <h2>Frontend Geliştirme Nedir?</h2>
-      <div className="flex flex-col items-center gap-8 md:flex-row">
+      <div className="flex flex-col items-center gap-8 lg:flex-row">
         <p>
           Frontend geliştirme, web uygulamalarının kullanıcı tarafında görünen ve etkileşimde
           bulunulan kısmının oluşturulmasını kapsar. HTML, CSS ve JavaScript gibi temel web
@@ -35,7 +35,7 @@ export default function FrontendNedir() {
           geliştirmeyi içerir. Frontend geliştiriciler, kullanıcı deneyimini (UX) ve kullanıcı
           arayüzünü (UI) optimize ederek, web sitelerinin hem görsel açıdan çekici hem de işlevsel
           olmasını sağlarlar. Modern frontend geliştirmede React, Vue.js gibi{" "}
-          <span>JavaScript</span>
+          <span>JavaScript </span>
           framework&#39;leri yanında, .NET ekosisteminden <span>ASP.NET</span> MVC ve Blazor gibi
           teknolojiler de yaygın olarak kullanılmaktadır. Bu çeşitlilik, geliştiricilere
           projelerinin ihtiyaçlarına en uygun teknolojiyi seçme esnekliği sağlar.
@@ -44,6 +44,6 @@ export default function FrontendNedir() {
           <IconCloud iconSlugs={frontendTechSlugs} />
         </div>
       </div>
-    </section>
+    </div>
   );
 }

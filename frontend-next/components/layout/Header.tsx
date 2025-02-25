@@ -12,7 +12,7 @@ export default function Header() {
           path: "/web-dev/frontend",
           subItems: {
             "Component Tabanlı": "/web-dev/frontend/component-tabanli",
-            "MVC Tabanlı": "/web-dev/frontend/mvc-tabanli",
+            ".NET (MVC)": "/web-dev/frontend/mvc-tabanli",
             CSS: "/web-dev/frontend/css",
           },
         },

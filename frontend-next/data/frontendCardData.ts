@@ -1,6 +1,4 @@
-import Image from "next/image";
-
-const htmlCards = [
+export const frontendCardData = [
   {
     id: 1,
     title: "HTML",
@@ -42,28 +40,3 @@ const htmlCards = [
       "JavaScript, web sayfalarını interaktif hale getiren güçlü bir programlama dilidir. Kullanıcı etkileşimlerine yanıt verme, form doğrulama, dinamik içerik güncelleme, animasyonlar oluşturma ve API'lerle veri alışverişi yapma gibi işlevleri gerçekleştirir. Modern web uygulamalarının vazgeçilmez bir parçası olan JavaScript, hem frontend hem de backend geliştirmede kullanılabilir.",
   },
 ];
-
-export default function HtmlCard() {
-  return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-      {htmlCards.map((card) => (
-        <div key={card.id} className="bg-white rounded-xl shadow-lg w-full overflow-hidden">
-          <div className="h-[300px] relative w-full">
-            <Image
-              src={card.image.src}
-              alt={card.image.alt}
-              fill
-              className="rounded-t-md object-cover h-full w-full hover:scale-105 transition-transform duration-300"
-              priority
-            />
-          </div>
-
-          <section>
-            <h4>{card.title}</h4>
-            <p>{card.description}</p>
-          </section>
-        </div>
-      ))}
-    </div>
-  );
-}

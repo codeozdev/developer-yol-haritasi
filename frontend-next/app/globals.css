@@ -5,30 +5,22 @@
 @layer base {
   h1 {
     @apply text-2xl md:text-4xl font-bold tracking-tight text-center text-gray-900 dark:text-gray-300 
-    my-4 md:my-12 relative 
+    my-4 md:my-16 relative 
     after:content-[''] after:block after:w-24 after:h-1 after:bg-gray-900 after:dark:bg-gray-300 
     after:mx-auto after:mt-2 after:rounded-full after:transform after:transition-all 
     after:hover:w-[600px] after:hover:bg-gray-700 after:dark:hover:bg-gray-400;
   }
 
   h2 {
-    @apply text-lg md:text-2xl font-semibold tracking-tight text-gray-800 dark:text-gray-300 my-4 text-center md:text-left;
+    @apply text-lg md:text-3xl font-semibold tracking-tight text-gray-800 dark:text-gray-300 my-4 md:my-8 text-center md:text-left;
   }
 
   h3 {
-    @apply text-lg md:text-2xl font-semibold tracking-tight text-center md:text-left text-gray-800 dark:text-gray-300 my-3;
-  }
-
-  h4 {
-    @apply text-base md:text-xl font-bold text-gray-800 dark:text-gray-300 my-2 text-center md:text-left;
-  }
-
-  h5 {
-    @apply text-lg font-bold text-gray-800 dark:text-gray-300;
+    @apply text-xl md:text-xl font-bold text-gray-800 dark:text-gray-300 my-4 md:my-10 text-center md:text-left;
   }
 
   p {
-    @apply text-gray-700 dark:text-gray-300 leading-relaxed text-[13px] md:text-[15px];
+    @apply text-gray-700 dark:text-gray-300 leading-relaxed text-[13px] md:text-[15px] text-center md:text-left;
   }
 
   li {

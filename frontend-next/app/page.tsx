@@ -1,5 +1,9 @@
-import HomePageContainer from "@/containers/home";
+import DeveloperPathCards from "@/components/home/DeveloperPathCards";
 
 export default function Home() {
-  return <HomePageContainer />;
+  return (
+    <>
+      <DeveloperPathCards />
+    </>
+  );
 }

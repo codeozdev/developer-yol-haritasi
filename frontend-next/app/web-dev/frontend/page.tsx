@@ -1,9 +1,15 @@
-import FrontendContainer from "@/containers/web-developer/frontend";
+import FrontendCard from "@/components/frontend/FrontendCard";
+import FrontendNedir from "@/components/frontend/FrontendNedir";
+import FrontendTercih from "@/components/frontend/FrontendTercih";
+import YolAyrimi from "@/components/frontend/YolAyrimi";
 
 export default function FrontendPage() {
   return (
-    <div className="space-y-12">
-      <FrontendContainer />
-    </div>
+    <>
+      <FrontendNedir />
+      <FrontendCard />
+      <YolAyrimi />
+      <FrontendTercih />
+    </>
   );
 }

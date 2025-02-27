@@ -1,15 +1,15 @@
-import CardsComponent from "@/components/frontend/component-tabanli/card";
+import ComponentCard from "@/components/frontend/component-tabanli/ComponentCard";
 import Ide from "@/components/frontend/component-tabanli/ide";
+import NedenComponent from "@/components/frontend/component-tabanli/NedenComponent";
 import SimdiNeYapmaliyiz from "@/components/frontend/component-tabanli/simdiNeYapmaliyiz";
 import Stackoverflow from "@/components/frontend/component-tabanli/Stackoverflow";
-import Tanim from "@/components/frontend/component-tabanli/tanim";
 
 export default function ComponentTabanliPage() {
   return (
     <>
-      <Tanim />
+      <NedenComponent />
       <Stackoverflow />
-      <CardsComponent />
+      <ComponentCard />
       <Ide />
       <SimdiNeYapmaliyiz />
     </>

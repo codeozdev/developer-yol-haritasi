@@ -33,4 +33,8 @@ export interface CardGridItem {
     src: string;
     alt: string;
   };
+  link?: string;
+  githubStars?: string;
+  githubLink?: string;
+  sites?: string[];
 }

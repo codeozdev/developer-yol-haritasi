@@ -4,7 +4,7 @@ const baseStyles = {
   imageWrapper: "h-[300px] relative w-full",
   image: "object-cover w-full hover:scale-105 transition-transform duration-300",
   content: "p-3 md:p-6",
-  description: "text-center md:text-start",
+  description: "",
 } as const;
 
 export const variantStyles = {
@@ -20,7 +20,7 @@ export const variantStyles = {
     imageWrapper: `relative min-h-[120px] md:min-h-[200px] lg:h-[320px] overflow-hidden`,
     image: `object-cover w-full rounded-sm lg:rounded-2xl hover:scale-105 transition-transform duration-300`,
     content: `${baseStyles.content} flex justify-center flex-col`,
-    description: `${baseStyles.description}`,
+    description: `${baseStyles.description} text-center md:text-left`,
   },
 
   featured: {
@@ -41,3 +41,4 @@ export const variantStyles = {
 
 // baseStyles -> ortak stilleri tutan degisken
 // neden css degilde ts olarak olusturduk cunku daha guvenli, daha esnek, kolay yonetilebilir.
+// grid sistemlerde padding-container kullanmaya gerek yoktur.

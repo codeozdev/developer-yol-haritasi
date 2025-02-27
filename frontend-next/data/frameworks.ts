@@ -21,7 +21,7 @@ export const frameworks: Framework[] = [
       alt: "react",
     },
     description:
-      "React, kullanıcı arayüzleri oluşturmayı kolaylaştıran bileşen tabanlı bir JavaScript kütüphanesidir. Tek sayfa uygulamaları (SPA) ve dinamik web siteleri geliştirmek için kullanılır. Sanal DOM yapısı sayesinde hızlı ve verimli güncellemeler yaparak performansı artırır. Açık kaynaklı olması ve geniş topluluk desteği sayesinde sürekli gelişen React, modern web uygulamalarının temel taşlarından biri haline gelmiştir.",
+      "React, kullanıcı arayüzleri oluşturmayı kolaylaştıran bileşen tabanlı bir JavaScript kütüphanesidir. Tek sayfa uygulamaları (SPA) ve dinamik web siteleri geliştirmek için kullanılır. Sanal DOM yapısı sayesinde hızlı ve verimli güncellemeler yaparak performansı artırır. Açık kaynaklı olması ve geniş topluluk desteği sayesinde sürekli gelişen React, modern web uygulamalarının temel taşlarından biri haline gelmiştir. Kolay öğrenilebilir ve esnek bir framework'dür.",
     link: "https://react.dev",
     githubStars: "232k",
     githubLink: "https://github.com/facebook/react",

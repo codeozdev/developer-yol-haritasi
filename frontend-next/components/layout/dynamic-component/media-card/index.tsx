@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ReactNode } from "react";
+import PaddingContainer from "../padding-container";
 
 interface MediaCardProps {
   title: string;
@@ -22,13 +23,13 @@ export default function MediaCard({
   imageFull = false,
 }: MediaCardProps) {
   return (
-    <div className="bg-white rounded-lg lg:rounded-lg shadow-lg w-full overflow-hidden lg:shadow-2xl dark:shadow-md dark:shadow-green-500 p-3 md:p-6 flex flex-col">
+    <PaddingContainer>
       <h2>{title}</h2>
 
       {reverse ? (
         <>
           {imageFull ? (
-            <div className="w-full my-6 overflow-hidden order-2">
+            <div className="w-full overflow-hidden order-2">
               <Image
                 src={imageSrc}
                 alt={imageAlt}
@@ -40,7 +41,7 @@ export default function MediaCard({
               />
             </div>
           ) : (
-            <div className="relative h-[140px] md:h-[260px] w-full my-6 overflow-hidden order-2">
+            <div className="relative h-[140px] md:h-[260px] w-full  overflow-hidden order-2">
               <Image
                 src={imageSrc}
                 alt={imageAlt}
@@ -58,13 +59,13 @@ export default function MediaCard({
         </>
       ) : (
         <>
-          <div className="order-2">
+          <div className="order-2 text-gray-700 dark:text-gray-300 leading-relaxed text-[13px] md:text-[15px]">
             {description}
-            {note && <p className="mt-4 text-sm text-gray-600">{note}</p>}
+            {note && <p className="mt-4 text-gray-600">{note}</p>}
           </div>
 
           {imageFull ? (
-            <div className="w-full my-6 overflow-hidden order-2">
+            <div className="w-full overflow-hidden order-2">
               <Image
                 src={imageSrc}
                 alt={imageAlt}
@@ -76,7 +77,7 @@ export default function MediaCard({
               />
             </div>
           ) : (
-            <div className="relative h-[140px] md:h-[260px] w-full my-6 overflow-hidden order-1">
+            <div className="relative h-[140px] md:h-[260px] w-full overflow-hidden order-1">
               <Image
                 src={imageSrc}
                 alt={imageAlt}
@@ -88,6 +89,6 @@ export default function MediaCard({
           )}
         </>
       )}
-    </div>
+    </PaddingContainer>
   );
 }

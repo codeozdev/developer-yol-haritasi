@@ -1,5 +1,5 @@
 import Grid from "@/components/layout/dynamic-component/grid/Grid";
-import GridItem from "@/components/layout/dynamic-component/grid/GridItem";
+import { GridItem } from "@/components/layout/dynamic-component/grid/GridItem";
 import { GridItemProps } from "../types";
 
 interface FeaturedGridProps {

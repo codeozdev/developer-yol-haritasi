@@ -1,13 +1,7 @@
 import Image from "next/image";
 import { GridItemProps } from "./types";
 
-export default function GridItem({
-  title,
-  content,
-  image,
-  imageAlt,
-  className = "",
-}: GridItemProps) {
+export function GridItem({ title, content, image, imageAlt, className = "" }: GridItemProps) {
   return (
     <div className={`bg-white rounded-lg shadow-lg overflow-hidden ${className}`}>
       {image && (

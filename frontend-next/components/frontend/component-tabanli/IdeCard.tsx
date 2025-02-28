@@ -14,7 +14,7 @@ export default function IdeCard() {
           sayesinde daha verimli çalışmayı sağlar. Ayrıca, eklenti desteği ile framework ve
           kütüphaneler için özel araçlar sunarak geliştirme sürecini kolaylaştırır.
         </p>
-        <Grid variant="card" gap="small" className="lg:grid-cols-1">
+        <Grid variant="one-column">
           <CardGrid items={ideData} />
         </Grid>
       </div>

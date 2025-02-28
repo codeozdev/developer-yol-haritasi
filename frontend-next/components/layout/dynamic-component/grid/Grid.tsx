@@ -26,3 +26,5 @@ export default function Grid({ children, variant, gap = "base", className = "" }
 
   return <div className={`${gridStyles} ${gapStyles} ${className}`}>{children}</div>;
 }
+
+// "card-single" arada - simgesi varsa "" icine yazilir.

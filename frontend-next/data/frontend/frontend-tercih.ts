@@ -1,4 +1,4 @@
-export interface FrameworkSectionProps {
+export interface FrontendTercihProps {
   title: string;
   color: string;
   description: string;
@@ -8,7 +8,7 @@ export interface FrameworkSectionProps {
   linkText: string;
 }
 
-export const frameworkSection: FrameworkSectionProps[] = [
+export const frontendTercih: FrontendTercihProps[] = [
   {
     title: ".NET (MVC)",
     color: "blue",
@@ -19,7 +19,7 @@ export const frameworkSection: FrameworkSectionProps[] = [
       "Büyük ölçekli uygulamalar için tercih edilir",
     ],
     frameworks: ["ASP.NET MVC (Microsoft)", "Blazor"],
-    link: "/web-dev/frontend/mvc-tabanli",
+    link: "/web-dev/frontend/dotnet",
     linkText: "Detaylı Bilgi İçin Tıklayınız",
   },
   {
@@ -32,7 +32,7 @@ export const frameworkSection: FrameworkSectionProps[] = [
       "Yeniden kullanılabilir bileşenler oluşturulur",
     ],
     frameworks: ["React (Facebook/Meta)", "Next.js", "Angular (Google)", "Vue.js", "Svelte"],
-    link: "/web-dev/frontend/component-tabanli",
+    link: "/web-dev/frontend/javascript",
     linkText: "Detaylı Bilgi İçin Tıklayınız",
   },
 ];

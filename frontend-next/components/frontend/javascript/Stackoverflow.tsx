@@ -5,7 +5,7 @@ export default function Stackoverflow() {
     <>
       <MediaCard
         title="Stackoverflow 2024 Sonuçları"
-        imageSrc="/component-tabanli/hero.png"
+        imageSrc="/javascript/hero.png"
         imageAlt="Component Tabanlı Görsel"
         reverse={false}
         imageFull={true}

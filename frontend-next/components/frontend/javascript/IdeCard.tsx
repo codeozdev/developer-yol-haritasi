@@ -1,7 +1,7 @@
 import Grid from "@/components/layout/dynamic-component/grid/Grid";
 import { CardGrid } from "@/components/layout/dynamic-component/grid/variants/CardGrid";
 import PaddingContainer from "@/components/layout/dynamic-component/padding-container";
-import { ideData } from "@/data/ides";
+import { ideData } from "@/data/frontend/javascript/ides";
 
 export default function IdeCard() {
   return (

@@ -11,8 +11,8 @@ export default function Header() {
         Frontend: {
           path: "/web-dev/frontend",
           subItems: {
-            "Component Tabanlı": "/web-dev/frontend/component-tabanli",
-            ".NET (MVC)": "/web-dev/frontend/mvc-tabanli",
+            JavaScript: "/web-dev/frontend/javascript",
+            "DotNet (MVC)": "/web-dev/frontend/dotnet",
             CSS: "/web-dev/frontend/css",
           },
         },

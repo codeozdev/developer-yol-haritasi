@@ -1,4 +1,14 @@
-export const frontendCardData = [
+interface FrontendCardProps {
+  id: number;
+  title: string;
+  image: {
+    src: string;
+    alt: string;
+  };
+  description: string;
+}
+
+export const frontendCard: FrontendCardProps[] = [
   {
     id: 1,
     title: "HTML",

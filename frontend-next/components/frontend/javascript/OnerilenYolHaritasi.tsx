@@ -36,7 +36,7 @@ export default function OnerilenYolHaritasi() {
         </p>
         <MediaCard
           title="JavaScript Ekosistemi"
-          imageSrc="/component-tabanli/javascript.png"
+          imageSrc="/javascript/javascript.png"
           imageAlt="JavaScript Ekosistemi"
           reverse={false}
           description="JavaScript ekosistemi, modern web geliştirmenin temelini oluşturan geniş bir teknoloji ve araç setidir. npm (Node Package Manager) üzerinden erişilebilen yüz binlerce paket, framework ve kütüphane ile web uygulamaları geliştirebilirsiniz. Node.js ile sunucu tarafında da çalışabilen JavaScript, tam kapsamlı web projeleri geliştirmenize olanak tanır. TypeScript ise JavaScript&#39;e tip güvenliği ekleyen, Microsoft tarafından geliştirilen üst seviye bir programlama dilidir. Nesne yönelimli programlama özellikleri ve gelişmiş IDE desteği ile kurumsal projelerde tercih edilir."

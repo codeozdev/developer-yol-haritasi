@@ -1,6 +1,6 @@
 import { CardGrid } from "@/components/layout/dynamic-component/grid/variants/CardGrid";
-import { frameworks } from "@/data/frameworks";
+import { data } from "@/data/frontend/javascript/component-card";
 
 export default function ComponentCard() {
-  return <CardGrid items={frameworks} />;
+  return <CardGrid items={data} />;
 }

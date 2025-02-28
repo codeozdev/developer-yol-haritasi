@@ -1,4 +1,4 @@
-export interface Framework {
+export interface DataProps {
   id: number;
   title: string;
   image: {
@@ -12,12 +12,12 @@ export interface Framework {
   sites?: string[];
 }
 
-export const frameworks: Framework[] = [
+export const data: DataProps[] = [
   {
     id: 1,
     title: "React",
     image: {
-      src: "/component-tabanli/react.jpg",
+      src: "/javascript/react.jpg",
       alt: "react",
     },
     description:
@@ -31,7 +31,7 @@ export const frameworks: Framework[] = [
     id: 2,
     title: "Nextjs",
     image: {
-      src: "/component-tabanli/nextjs.jpeg",
+      src: "/javascript/nextjs.jpeg",
       alt: "nextjs",
     },
     description:
@@ -45,7 +45,7 @@ export const frameworks: Framework[] = [
     id: 3,
     title: "Angular",
     image: {
-      src: "/component-tabanli/angular.jpg",
+      src: "/javascript/angular.jpg",
       alt: "angular",
     },
     description:
@@ -59,7 +59,7 @@ export const frameworks: Framework[] = [
     id: 4,
     title: "Vue.js",
     image: {
-      src: "/component-tabanli/vue.webp",
+      src: "/javascript/vue.webp",
       alt: "vue",
     },
     description:
@@ -73,7 +73,7 @@ export const frameworks: Framework[] = [
     id: 5,
     title: "Svelte",
     image: {
-      src: "/component-tabanli/svelte.webp",
+      src: "/javascript/svelte.webp",
       alt: "svelte",
     },
     description:

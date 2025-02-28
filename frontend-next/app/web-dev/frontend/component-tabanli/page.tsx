@@ -1,7 +1,7 @@
 import ComponentCard from "@/components/frontend/component-tabanli/ComponentCard";
-import Ide from "@/components/frontend/component-tabanli/ide";
+import IdeCard from "@/components/frontend/component-tabanli/IdeCard";
 import NedenComponent from "@/components/frontend/component-tabanli/NedenComponent";
-import SimdiNeYapmaliyiz from "@/components/frontend/component-tabanli/simdiNeYapmaliyiz";
+import OnerilenYolHaritasi from "@/components/frontend/component-tabanli/OnerilenYolHaritasi";
 import Stackoverflow from "@/components/frontend/component-tabanli/Stackoverflow";
 
 export default function ComponentTabanliPage() {
@@ -10,8 +10,8 @@ export default function ComponentTabanliPage() {
       <NedenComponent />
       <Stackoverflow />
       <ComponentCard />
-      <Ide />
-      <SimdiNeYapmaliyiz />
+      <IdeCard />
+      <OnerilenYolHaritasi />
     </>
   );
 }

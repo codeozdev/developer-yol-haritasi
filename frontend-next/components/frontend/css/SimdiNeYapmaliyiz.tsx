@@ -1,6 +1,8 @@
+import PaddingContainer from "@/components/layout/dynamic-component/padding-container";
+
 export default function SimdiNeYapmaliyiz() {
   return (
-    <section>
+    <PaddingContainer>
       <h2>Şimdi Ne Yapmalıyız?</h2>
       <div className="space-y-8">
         <p>
@@ -11,6 +13,6 @@ export default function SimdiNeYapmaliyiz() {
           framework&#39;leri için <span>Tailwind CSS</span> önerilir.
         </p>
       </div>
-    </section>
+    </PaddingContainer>
   );
 }

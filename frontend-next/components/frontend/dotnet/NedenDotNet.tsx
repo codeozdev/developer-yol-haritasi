@@ -22,7 +22,7 @@ export default function NedenDotNet() {
         ))}
       </Grid>
       <div className="mt-6">
-        <h4>MVC&#39;nin Avantajları:</h4>
+        <h4>MVC&#39;nin Avantajları</h4>
         <ul className="list-disc pl-6 space-y-2">
           {avantajlar.map((avantaj) => (
             <li key={avantaj}>{avantaj}</li>

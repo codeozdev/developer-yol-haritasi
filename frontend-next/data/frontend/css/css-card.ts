@@ -1,4 +1,4 @@
-export interface CssFramework {
+export interface DataProps {
   id: number;
   title: string;
   image: {
@@ -11,7 +11,7 @@ export interface CssFramework {
   githubLink?: string;
 }
 
-export const cssFrameworks: CssFramework[] = [
+export const data: DataProps[] = [
   {
     id: 1,
     title: "Vanilla CSS",

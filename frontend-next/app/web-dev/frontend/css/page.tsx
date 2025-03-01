@@ -1,5 +1,15 @@
-import CssContainer from "@/containers/web-developer/frontend/css";
+import CssCard from "@/components/frontend/css/CssCard";
+import CssGiris from "@/components/frontend/css/CssGiris";
+import SimdiNeYapmaliyiz from "@/components/frontend/css/SimdiNeYapmaliyiz";
+import Stateofcss from "@/components/frontend/css/Stateofcss";
 
 export default function CssPage() {
-  return <CssContainer />;
+  return (
+    <>
+      <CssGiris />
+      <Stateofcss />
+      <CssCard />
+      <SimdiNeYapmaliyiz />
+    </>
+  );
 }

@@ -23,7 +23,7 @@ export const data: DataProps[] = [
     id: 2,
     title: "View",
     description:
-      "Kullanıcı arayüzünü temsil eder. Model&#39;den gelen verileri görsel olarak sunar ve kullanıcı etkileşimlerini Controller&#39;a iletir. Sadece görüntüleme mantığı içerir.",
+      "Kullanıcı arayüzünü temsil eder. Model'den gelen verileri görsel olarak sunar ve kullanıcı etkileşimlerini Controller'a iletir. Sadece görüntüleme mantığı içerir.",
     color: {
       text: "text-green-600 dark:text-green-400",
       shadow: "dark:shadow-green-500",
@@ -33,7 +33,7 @@ export const data: DataProps[] = [
     id: 3,
     title: "Controller",
     description:
-      "Model ve View arasındaki iletişimi yönetir. Kullanıcı isteklerini işler, gerekli iş mantığını çağırır ve sonuçları View&#39;a iletir. Uygulama akışının kontrolünü sağlar.",
+      "Model ve View arasındaki iletişimi yönetir. Kullanıcı isteklerini işler, gerekli iş mantığını çağırır ve sonuçları View'a iletir. Uygulama akışının kontrolünü sağlar.",
     color: {
       text: "text-purple-600 dark:text-purple-400",
       shadow: "dark:shadow-purple-500",
